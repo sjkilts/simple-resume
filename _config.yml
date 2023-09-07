@@ -31,14 +31,8 @@ github_username:  jekyll
 
 # Build settings
 # theme: minima
-plugins:
-  - jekyll-readme-index
+# plugins:
 #  - jekyll-feed
-
-readme_index:
-  enabled:          true
-  remove_originals: false
-  with_frontmatter: false
 
 # Exclude from processing.
 # The following items will not be processed, by default.
