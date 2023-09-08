@@ -1,5 +1,7 @@
 ---
-layout: default
+simple html resume using markdown, liquid and yml
+works with Jekyll
+adjust _data/resume.yml
 ---
 
 {% for resume in site.data.resume %}
