@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+{% comment %}{% include head.html %}{% endcomment %}
+
+<link rel="stylesheet" href="{{ site.baseurl }}/css/style.css">
+
+  {% comment %}{% include header.html %}{% endcomment %}
+
+  <body>
+
+  	<main aria-label="Content">
+      
+        {{ content }}
+
+    </main>
+
+  </body>
+
+{% comment %}{% include foot.html %}{% endcomment %}
+
+</html>
